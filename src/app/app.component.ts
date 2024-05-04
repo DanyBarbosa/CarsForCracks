@@ -4,11 +4,12 @@ import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
 import { CommonModule } from '@angular/common';
 import { CarouselComponent } from './carousel/carousel.component';
+import { AutomovilComponent } from './automovil/automovil.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, HeaderComponent, CardComponent, CarouselComponent],
+  imports: [RouterOutlet, CommonModule, HeaderComponent, CardComponent, CarouselComponent, AutomovilComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
