@@ -5,11 +5,12 @@ import { CardComponent } from './card/card.component';
 import { CommonModule } from '@angular/common';
 import { CarouselComponent } from './carousel/carousel.component';
 import { AutomovilComponent } from './automovil/automovil.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, HeaderComponent, CardComponent, CarouselComponent, AutomovilComponent],
+  imports: [RouterOutlet, CommonModule, HeaderComponent, CardComponent, CarouselComponent, AutomovilComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
