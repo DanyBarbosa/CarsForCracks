@@ -22,40 +22,33 @@ h1.text-center {
 
 /* Estilos para las cartas de automóviles */
 .card {
-    border: 1px solid #ccc; /* Borde de la carta */
-    border-radius: 10px; /* Bordes redondeados */
-    overflow: hidden; /* Evitar que la imagen sobresalga */
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .card img {
-    width: 100%; /* Hacer que la imagen ocupe todo el ancho de la carta */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 100%;
+    height: auto;
 }
 
-.card-body {
-    padding: 20px; /* Espaciado interno */
-}
 
 .card-title {
-    font-size: 1.2rem; /* Tamaño de fuente del título */
-    margin-bottom: 10px; /* Margen inferior */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 .card-text {
-    color: #666; /* Color del texto */
-}
-
-.card-text small {
-    font-size: 0.8rem; /* Tamaño de fuente para el texto pequeño */
+    color: black;/
 }
 
 /* Estilos para el botón Reservar */
 .btn-outline-primary {
-    border-color: #007bff; /* Color del borde del botón */
-    color: #007bff; /* Color del texto del botón */
+    border-color: #007bff;
+    color: #007bff;
 }
 
 .btn-outline-primary:hover {
-    background-color: #007bff; /* Color de fondo al pasar el mouse */
-    color: #fff; /* Cambiar color del texto al pasar el mouse */
+    background-color: #007bff;
+    color: #fff;
 }
