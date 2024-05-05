@@ -1,6 +1,12 @@
+
+#cartas{
+    width: 97%;
+    margin: 40px;
+}
 .img{
     width: 700px;
 }
 .body{
     background-color: gray;
+
 }
