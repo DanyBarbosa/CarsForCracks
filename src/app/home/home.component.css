@@ -4,3 +4,13 @@
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
+.video{
+    width: 80%;
+    height: 800px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
