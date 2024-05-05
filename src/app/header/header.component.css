@@ -1,8 +1,12 @@
 .navbar {
     justify-content: center;
-    text-align: center;
-    height: 110px;
+    text-align: left;
+    height: 130px;
     background-color: rgb(0, 123, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
+  }
+  #logonav{
+    padding-top: 50px;
+    height: 200px;
   }
