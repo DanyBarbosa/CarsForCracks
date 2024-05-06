@@ -33,3 +33,34 @@
     font-weight: bold;
     background-color: lightgray;
 }
+#nosotros img{
+    width: 200px;
+    height: 200px;
+}
+#nosotros {
+    padding-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#nosotros h5{
+    padding-top: 30px;
+}
+.titulo{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    width: 70%;
+    font-size: 30px;
+}
+.persona {
+    padding-bottom: 50px;
+    margin-right: 50px; 
+    margin-bottom: 50px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
