@@ -1,6 +1,9 @@
 .table {
     width: 100%;
     border-collapse: collapse;
+    width: 40%;
+    margin: auto;
+    text-align: center;
 }
 
 /* Estilos para las filas impares */
@@ -29,4 +32,9 @@ thead th, tbody th {
 /* Estilos para el texto en negrita en las celdas del cuerpo */
 tbody td {
     font-weight: bold;
+}
+
+.cont{
+    text-align: center;
+    padding-bottom: 30px;
 }
