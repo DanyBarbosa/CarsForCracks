@@ -5,10 +5,11 @@ import { AutomovilComponent } from './automovil/automovil.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { HomeComponent } from './home/home.component';
+import { TablaComponent } from './tabla/tabla.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, RouterModule, ContactoComponent, HomeComponent, AutomovilComponent, FooterComponent],
+  imports: [RouterOutlet, HeaderComponent, RouterModule, ContactoComponent, HomeComponent, AutomovilComponent, FooterComponent, TablaComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
