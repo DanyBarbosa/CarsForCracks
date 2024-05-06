@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Automovil } from '../automovil';
 import { AutoService } from '../shared/auto.service';
-import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({

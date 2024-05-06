@@ -43,7 +43,7 @@ export class RegistroComponent {
   
   constructor(public automovilService: AutoService, public activatedRoute:ActivatedRoute, private citasService:CitasService){
     this.activatedRoute.params.subscribe(params => {
-      this.automovil = automovilService.getUnAuto(params['id']);
+      this.automovil = automovilService.getAuto(params['id']);
     })
     
   }
