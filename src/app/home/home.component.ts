@@ -4,11 +4,11 @@ import { CardComponent } from '../card/card.component';
 import { CarouselComponent } from '../carousel/carousel.component';
 import { AutomovilComponent } from '../automovil/automovil.component';
 import { TablaComponent } from '../tabla/tabla.component';
-
+import { DomseguroPipe } from '../domseguro.pipe';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule,CardComponent, CarouselComponent, AutomovilComponent,TablaComponent],
+  imports: [CommonModule,CardComponent, CarouselComponent, AutomovilComponent,TablaComponent, DomseguroPipe],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -31,5 +31,6 @@ export class HomeComponent {
     }
   ];
 
+  video:string="Oil-uwcxzBk?si=RfEiYHhDbtEQYZnB";
   constructor() { }
 }
