@@ -12,8 +12,13 @@ export class AutoService {
   getAutos(): Automovil[]{
     return this.autos;
   }
-
-  getUnAuto(posicion:number):Automovil{
+  getAuto(posicion: number){
     return this.autos[posicion];
   }
+
+  searchAuto(nombre: string){
+    let index = this.autos.findIndex(p=> p.nombre === nombre);
+    return index;
+  }
 }
+
