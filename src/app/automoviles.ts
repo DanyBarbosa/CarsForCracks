@@ -4,7 +4,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Mercedes-Benz Clase S",
         descrip: "Un automóvil de lujo con tecnología avanzada y comodidades de primera clase.",
-        año: 2022,
+        anio: 2022,
         img: "assets/img/Mercedes-Benz-S.jpg",
         marca: "Mercedes-Benz",
         costo: 100000
@@ -12,7 +12,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "BMW Serie 7",
         descrip: "Un sedán de lujo con un interior lujoso y un rendimiento impresionante.",
-        año: 2019,
+        anio: 2019,
         img: "assets/img/BMW-Serie-7.jpg",
         marca: "BMW",
         costo: 90000
@@ -20,7 +20,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Audi A8",
         descrip: "Un automóvil elegante y sofisticado con características de alta tecnología y comodidad.",
-        año: 2022,
+        anio: 2022,
         img: "assets/img/audi-a8.jpg",
         marca: "Audi",
         costo: 95000
@@ -28,7 +28,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Lexus LS",
         descrip: "Un sedán de lujo con un diseño impresionante y un interior exquisito.",
-        año: 2019,
+        anio: 2019,
         img: "assets/img/Lexus-LS.jpg",
         marca: "Lexus",
         costo: 85000
@@ -36,7 +36,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Porsche Panamera",
         descrip: "Un automóvil deportivo de lujo con un diseño elegante y un rendimiento excepcional.",
-        año: 2022,
+        anio: 2022,
         img: "assets/img/Porsche-Panamera.jpg",
         marca: "Porsche",
         costo: 110000
@@ -44,7 +44,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Tesla Model S",
         descrip: "Un sedán eléctrico de alta gama con tecnología de vanguardia y rendimiento rápido.",
-        año: 2021,
+        anio: 2021,
         img: "assets/img/Tesla-Model-S.jpg",
         marca: "Tesla",
         costo: 95000
@@ -52,7 +52,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Jaguar XJ",
         descrip: "Un automóvil de lujo con un diseño impresionante y un rendimiento emocionante.",
-        año: 2023,
+        anio: 2023,
         img: "assets/img/Jaguar-XJ.jpg",
         marca: "Jaguar",
         costo: 90000
@@ -60,7 +60,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Bentley Flying Spur",
         descrip: "Un automóvil de lujo con un interior opulento y una potencia impresionante.",
-        año: 2020,
+        anio: 2020,
         img: "assets/img/Bentley-Flying-Spur.jpg",
         marca: "Bentley",
         costo: 200000
@@ -68,7 +68,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Rolls-Royce Ghost",
         descrip: "Un sedán de lujo con un diseño elegante y un confort incomparable.",
-        año: 2021,
+        anio: 2021,
         img: "assets/img/Rolls-Royce-Ghost.jpg",
         marca: "Rolls-Royce",
         costo: 300000
@@ -76,7 +76,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Ferrari GTC4Lusso",
         descrip: "Un automóvil deportivo de lujo con un diseño aerodinámico y un rendimiento impresionante.",
-        año: 2022,
+        anio: 2022,
         img: "assets/img/Ferrari-GTC4Lusso.jpg",
         marca: "Ferrari",
         costo: 300000

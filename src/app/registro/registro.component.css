@@ -1,0 +1,13 @@
+img{
+    width: 35%;
+    padding-bottom: 20px;
+}
+
+.container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+

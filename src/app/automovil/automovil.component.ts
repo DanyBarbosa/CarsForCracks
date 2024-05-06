@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Automovil } from '../automovil';
 import { AutoService } from '../shared/auto.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-automovil',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './automovil.component.html',
   styleUrl: './automovil.component.css'
 })

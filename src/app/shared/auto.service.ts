@@ -12,4 +12,8 @@ export class AutoService {
   getAutos(): Automovil[]{
     return this.autos;
   }
+
+  getUnAuto(posicion:number):Automovil{
+    return this.autos[posicion];
+  }
 }

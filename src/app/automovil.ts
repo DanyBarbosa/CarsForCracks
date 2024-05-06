@@ -1,7 +1,7 @@
 export interface Automovil{
     nombre: string;
     descrip: string;
-    año: number;
+    anio: number;
     img: string;
     marca: string;
     costo: number;

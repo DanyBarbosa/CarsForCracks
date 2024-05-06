@@ -1,0 +1,44 @@
+<div class="card mb-3 container">
+    <img src={{automovil.img}} class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{automovil.nombre}}</h5>
+      <p class="card-text">{{automovil.descrip}}</p>
+      <div>
+          <p class="card-text">{{automovil.marca}}</p>
+          <p class="card-text">${{automovil.costo}}</p>
+          <p class="card-text">{{automovil.anio}}</p>
+      </div>
+    </div>
+  </div>
+
+<div class="container mb-3" style="padding-left: 310px;">
+    <form class="row g-3" #clienteForm="ngForm">
+        <div class="col-md-6">
+          <label for="name" class="form-label" >Nombre</label>
+          <input type="text" class="form-control" id="name" name="nombre" [(ngModel)]="datosCliente.nombre">
+        </div>
+        <div class="col-md-6">
+          <label for="tel" class="form-label">Telefono</label>
+          <input type="number" class="form-control" id="tel" name="tel" [(ngModel)]="datosCliente.tel">
+        </div>
+        <div class="col-12">
+          <label for="correo" class="form-label">Correo Electronico </label>
+          <input type="email" class="form-control" id="correo" name="correo"  [(ngModel)]="datosCliente.correo">
+        </div>
+        <div class="col-12 row g-3">
+          <div class="col-6">
+            <label for="startDate" class="form-label">Fecha de Inicio </label>
+            <p-calendar name="range" [showTime]="true" hourFormat="12" [(ngModel)]="startDate" class="form-control" />
+          </div>
+          <div class="col-6">
+            <label for="endDate" class="form-label">Fecha de Entrega </label>
+            <p-calendar name="range" [showTime]="true" hourFormat="12" [(ngModel)]="endDate" class="form-control" />
+
+          </div>
+        </div>
+         
+        <div class="col-12"> 
+          <button type="submit" class="btn btn-primary" (click)="submit()">Sign in</button>
+        </div>
+      </form>
+</div>
