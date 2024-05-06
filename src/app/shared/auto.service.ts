@@ -12,7 +12,7 @@ export class AutoService {
   getAutos(): Automovil[]{
     return this.autos;
   }
-  getAuto(posicion: number){
+  getAuto(posicion: number):Automovil{
     return this.autos[posicion];
   }
 

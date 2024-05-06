@@ -84,7 +84,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Porsche 911 Carrera",
         descrip: "Un diseño atemporal, interpretado al estilo contemporáneo. La silueta del 911 Carrera es inconfundible gracias a la icónica línea de techo que se inclina elegantemente, y que ha conformado el ADN de la marca Porsche desde 1963",
-        año: 2022,
+        anio: 2022,
         img: "assets/img/911 carrera.jpg",
         marca: "Porsche",
         costo: 350000
@@ -92,7 +92,7 @@ export const AUTOS: Automovil[]=[
     {
         nombre: "Lamborghini Aventador",
         descrip: "Es un automóvil superdeportivo biplaza de dos puertas de tijera, con motor central-trasero montado longitudinalmente y de tracción en las cuatro ruedas",
-        año: 2022,
+        anio: 2022,
         img: "assets/img/lambo aventador.jpg",
         marca: "Lamborghini",
         costo: 600000

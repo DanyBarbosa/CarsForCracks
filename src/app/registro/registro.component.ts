@@ -27,6 +27,8 @@ export class RegistroComponent {
   enviado:boolean = false;
   datosCliente:Renta = {
     fecha: new Date(),
+    fechaInicio: new Date(),
+    fechaFin: new Date(),
     nombre: '',
     tel: '',
     correo: '',
@@ -62,7 +64,14 @@ export class RegistroComponent {
         if(prueba !== undefined && this.enviado == true){
           let numero:number = prueba;
           this.datosCliente.dias = numero;
+          this.datosCliente.fechaInicio = this.startDate;
+          this.datosCliente.fechaFin = this.endDate;
           this.citasService.agregarRenta(this.datosCliente);
+          this.datosCliente.nombre = '';
+          this.datosCliente.tel = '';
+          this.datosCliente.correo = '';
+          this.startDate = null;
+          this.endDate = null;
         }
       }
     }

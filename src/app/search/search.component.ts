@@ -19,7 +19,7 @@ export class SearchComponent {
   miAuto:Automovil={
     nombre:"",
     descrip:"",
-    año:0,
+    anio:0,
     img:"",
     marca:"",
     costo:0
