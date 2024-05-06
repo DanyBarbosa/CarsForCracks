@@ -67,3 +67,7 @@ h1.text-center {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
 }
+.text-center{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
