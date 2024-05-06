@@ -3,6 +3,7 @@ import { Automovil } from '../automovil';
 import { AutoService } from '../shared/auto.service';
 import { ActivatedRoute } from '@angular/router';
 import { AutoComponent } from '../auto/auto.component';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-search',
@@ -32,7 +33,20 @@ export class SearchComponent {
 
       if(this.indice!=-1){
         this.miAuto=this.autoServicio.getAuto(this.indice);
+        Swal.fire({
+          title: 'Aqui esta toda la informacion',
+          text: 'Aqui esta la ficha del auto que buscabas.',
+          icon:'info',
+          confirmButtonText: 'Aceptar'
+        });
+      }else{
+        Swal.fire({
+          title: '¡No se encontro este auto!',
+          text: 'Porfavor intentalo de nuevo y asegurate de escribirlo exactamente como esta en la pagina.',
+          icon:'error',
+          confirmButtonText: 'Aceptar'
+        });
       }
-    })
+    });
   }
 }
