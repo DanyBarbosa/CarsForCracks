@@ -39,7 +39,7 @@ export class ContactoComponent {
     'padding-bottom': '100px',
     'text-align': 'center',
     'font-size': '20px',
-    'background-image': 'url(../../assets/img/fondoContact.jpg)',
+    'background-image': 'url(assets/img/fondoContact.jpg)',
     'background-repeat': 'no-repeat',
     'background-position': 'center',
     'background-size': 'cover',
