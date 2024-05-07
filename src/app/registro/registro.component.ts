@@ -69,6 +69,7 @@ export class RegistroComponent {
           this.datosCliente.fechaInicio = this.startDate;
           this.datosCliente.fechaFin = this.endDate;
           this.citasService.agregarRenta(this.datosCliente);
+          
           this.datosCliente.nombre = '';
           this.datosCliente.tel = '';
           this.datosCliente.correo = '';

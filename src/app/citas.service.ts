@@ -13,7 +13,9 @@ export class CitasService {
   }
 
   agregarRenta(cliente:Renta){
+    console.log(cliente);
     this.citas.push(cliente);
+    console.log(this.citas);
     localStorage.setItem('rentas', JSON.stringify(this.citas));
   }
 
