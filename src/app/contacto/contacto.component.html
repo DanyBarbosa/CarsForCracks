@@ -1,12 +1,12 @@
-<div id="principal">
+<div [ngStyle]="principal">
     <h1>Contactanos y resuelve todas tus preguntas!!</h1>
     <p>Cuentas con nosotros para resolver cualquier duda que tengas sobre los autos, incluso el tuyo.</p>
     <p>Simplemente ingresa tus datos en el formulario de abajo, y envianos un mensaje. Estaremos al pendiente de todas tus preguntas. No solo eso, tambien puedes sugerirnos cosas en las que cambiar.
     </p>
-    <img src="../../assets/img/Logo Nombre.png" alt="">
+    <img [ngStyle]="imagen" src="../../assets/img/Logo Nombre.png" alt="">
 </div>
 <div id="formularioF">
-    <div id="formulario">
+    <div [ngStyle]="formulario">
         
         <div class="mb-3">
             <label for="correo" class="form-label">Correo Electronico</label>
@@ -19,29 +19,29 @@
         <button type="submit" class="btn btn-primary" (click)="mostrarAlerta()">Submit</button>
     </div>
 </div>
-<div class="titulo">
+<div [ngStyle]="titulo">
     <h2>Conocenos</h2>
     <p>Esta pagina es simplemente un proyecto escolar, por ende gran parte de la informacion es inventada. Aqui debajo te mostramos nuestro equipo.</p>
 </div>
-<div id="nosotros">
-    <div class="persona">
-        <img src="../../assets/img/Einar.jpeg" alt="">
-        <h5>Einar Naim Aguilar Santana</h5>
+<div [ngStyle]="nosotros">
+    <div [ngStyle]="persona">
+        <img [ngStyle]="imgPerf" src="../../assets/img/Einar.jpeg" alt="">
+        <h5 [ngStyle]="h5">Einar Naim Aguilar Santana</h5>
     </div>
-    <div class="persona">
-        <img src="../../assets/img/Dany.jpeg" alt="">
+    <div [ngStyle]="persona">
+        <img [ngStyle]="imgPerf" src="../../assets/img/Dany.jpeg" alt="">
         <h5>Daniel Alejandro Barbosa Ayala</h5>
     </div>
-    <div class="persona">
-        <img src="../../assets/img/Axel.jpeg" alt="">
+    <div [ngStyle]="persona">
+        <img [ngStyle]="imgPerf" src="../../assets/img/Axel.jpeg" alt="">
         <h5>Axel Daniel Macias Heredia</h5>
     </div>
-    <div class="persona">
-        <img src="../../assets/img/Sebas.jpeg" alt="">
+    <div [ngStyle]="persona">
+        <img [ngStyle]="imgPerf" src="../../assets/img/Sebas.jpeg" alt="">
         <h5>Sebastian Rodriguez Hernandez</h5>
     </div>
-    <div class="persona">
-        <img src="../../assets/img/Jesus.jpeg" alt="">
+    <div [ngStyle]="persona">
+        <img [ngStyle]="imgPerf" src="../../assets/img/Jesus.jpeg" alt="">
         <h5>Jesus Ruvalcaba Lozano</h5>
     </div>
 </div>
