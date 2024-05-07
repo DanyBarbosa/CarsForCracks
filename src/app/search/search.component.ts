@@ -3,15 +3,18 @@ import { Automovil } from '../automovil';
 import { AutoService } from '../shared/auto.service';
 import { ActivatedRoute } from '@angular/router';
 import { AutoComponent } from '../auto/auto.component';
+import { AutoCompleteModule } from 'primeng/autocomplete';
 import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-search',
   standalone: true,
-  imports: [AutoComponent],
+  imports: [AutoComponent, AutoCompleteModule],
   templateUrl: './search.component.html',
   styleUrl: './search.component.css'
 })
+
+
 export class SearchComponent {
   nombreA: string = '';
   indice: number=0
