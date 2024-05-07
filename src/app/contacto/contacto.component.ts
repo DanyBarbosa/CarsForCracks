@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import Swal from 'sweetalert2';
-
+import { CheckboxModule } from 'primeng/checkbox';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-contacto',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CheckboxModule, FormsModule],
   templateUrl: './contacto.component.html',
   styleUrl: './contacto.component.css'
 })
@@ -86,4 +87,9 @@ persona={
   'flex-direction': 'column',
   'align-items': 'center',
 }
+Satisfecho: boolean = false;
+Contento: boolean = false;
+Descontento: boolean = false;
+Desagradable: boolean = false;
 }
+
