@@ -6,6 +6,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { HomeComponent } from './home/home.component';
 import { TablaComponent } from './tabla/tabla.component';
+import Swal from 'sweetalert2';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -15,5 +17,12 @@ import { TablaComponent } from './tabla/tabla.component';
 })
 export class AppComponent {
   title = 'CarsForCracks';
-
+  onSearchPerformed(query: string) {
+    Swal.fire({
+      title: 'Busqueda realizada',
+      text: 'Se ha completado con éxito tu busqueda, verifica que tu auto esté aquí',
+      icon:'info',
+      confirmButtonText: 'Aceptar'
+    });
+  }
 }

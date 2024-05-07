@@ -35,20 +35,7 @@ export class SearchComponent {
       console.log(this.indice);
 
       if(this.indice!=-1){
-        this.miAuto=this.autoServicio.getAuto(this.indice);
-        Swal.fire({
-          title: 'Aqui esta toda la informacion',
-          text: 'Aqui esta la ficha del auto que buscabas.',
-          icon:'info',
-          confirmButtonText: 'Aceptar'
-        });
-      }else{
-        Swal.fire({
-          title: '¡No se encontro este auto!',
-          text: 'Porfavor intentalo de nuevo y asegurate de escribirlo exactamente como esta en la pagina.',
-          icon:'error',
-          confirmButtonText: 'Aceptar'
-        });
+        this.miAuto=this.autoServicio.getAuto(this.indice); 
       }
     });
   }
