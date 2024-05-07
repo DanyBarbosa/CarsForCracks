@@ -49,7 +49,7 @@
     </div>
 </div>
 
-<div class="titulo flex justify-content-center">
+<div [ngStyle]="titulo">
     <p>Tu opinion es importante, califica nuestro servecio</p>
     <p-rating [(ngModel)]="value" [cancel]="false" />
 </div>
