@@ -45,8 +45,12 @@ export class ReporteComponent implements OnInit {
       
       if (this.hoy.getTime() > cita.fechaInicio.getTime()) {
         this.pasadas.push(cita);
+        console.log(cita);
+        console.log(this.pasadas);
       } else {
         this.proximas.push(cita);
+        console.log(cita);
+        console.log(this.proximas);
       }
     });
     
