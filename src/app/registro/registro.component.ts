@@ -11,6 +11,7 @@ import { stringify } from 'querystring';
 import { CalendarModule } from 'primeng/calendar';
 import { CitasService } from '../citas.service';
 import { FloatLabelModule } from "primeng/floatlabel";
+import Swal from 'sweetalert2';
 
 
 
@@ -81,6 +82,12 @@ export class RegistroComponent {
 
   submit():void{
     this.enviado = true;
+    Swal.fire({
+      title: 'Reserva Exitosa!',
+      text: 'Puedes pasar por el auto el dia seleccionado.',
+      icon:'success',
+      confirmButtonText: 'Aceptar'
+    });
     this.verificar();
   }
 
