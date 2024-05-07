@@ -19,6 +19,11 @@
         <button type="submit" class="btn btn-primary" (click)="mostrarAlerta()">Submit</button>
     </div>
 </div>
+<div class="titulo flex justify-content-center">
+    <p>Tu opinion es importante, califica nuestro servecio</p>
+    <p-rating [(ngModel)]="value" [cancel]="false" />
+</div>
+
 <div class="titulo">
     <h2>Conocenos</h2>
     <p>Esta pagina es simplemente un proyecto escolar, por ende gran parte de la informacion es inventada. Aqui debajo te mostramos nuestro equipo.</p>

@@ -10,13 +10,14 @@ import { log } from 'console';
 import { stringify } from 'querystring';
 import { CalendarModule } from 'primeng/calendar';
 import { CitasService } from '../citas.service';
+import { FloatLabelModule } from "primeng/floatlabel";
 
 
 
 @Component({
   selector: 'app-registro',
   standalone: true,
-  imports: [RouterModule, FormsModule, ReactiveFormsModule, JsonPipe, CalendarModule],
+  imports: [RouterModule, FormsModule, ReactiveFormsModule, JsonPipe, CalendarModule, FloatLabelModule],
   providers:[],
   templateUrl: './registro.component.html',
   styleUrl: './registro.component.css'

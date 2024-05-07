@@ -12,27 +12,37 @@
   </div>
 
 <div class="container mb-3" style="padding-left: 310px;">
-    <form class="row g-3" #clienteForm="ngForm">
+    <form class="row g-5" #clienteForm="ngForm">
         <div class="col-md-6">
-          <label for="name" class="form-label" >Nombre</label>
-          <input type="text" class="form-control" id="name" name="nombre" [(ngModel)]="datosCliente.nombre">
+          <p-floatLabel>
+            <input type="text" class="form-control" id="name" name="nombre" [(ngModel)]="datosCliente.nombre">
+            <label for="name" class="form-label" >Nombre</label>
+          </p-floatLabel>
         </div>
         <div class="col-md-6">
-          <label for="tel" class="form-label">Telefono</label>
-          <input type="number" class="form-control" id="tel" name="tel" [(ngModel)]="datosCliente.tel">
+          <p-floatLabel>
+            <input type="number" class="form-control" id="tel" name="tel" [(ngModel)]="datosCliente.tel">
+            <label for="tel" class="form-label">Telefono</label>
+          </p-floatLabel>
         </div>
-        <div class="col-12">
-          <label for="correo" class="form-label">Correo Electronico </label>
-          <input type="email" class="form-control" id="correo" name="correo"  [(ngModel)]="datosCliente.correo">
+        <div>
+          <p-floatLabel>
+            <input type="email" class="form-control" id="correo" name="correo"  [(ngModel)]="datosCliente.correo">
+            <label for="correo" class="form-label">Correo Electronico </label>
+          </p-floatLabel>
         </div>
         <div class="col-12 row g-3">
-          <div class="col-6">
-            <label for="startDate" class="form-label">Fecha de Inicio </label>
-            <p-calendar name="range" [showTime]="true" hourFormat="12" [(ngModel)]="startDate" class="form-control" />
+          <div class="col-md-6">
+            <p-floatLabel>
+              <p-calendar name="range" [showTime]="true" hourFormat="12" [(ngModel)]="startDate"  />
+              <label for="startDate" class="form-label">Fecha de Inicio </label>
+            </p-floatLabel>
           </div>
-          <div class="col-6">
-            <label for="endDate" class="form-label">Fecha de Entrega </label>
-            <p-calendar name="range" [showTime]="true" hourFormat="12" [(ngModel)]="endDate" class="form-control" />
+          <div class="col-md-6">
+            <p-floatLabel>
+              <p-calendar name="range" [showTime]="true" hourFormat="12" [(ngModel)]="endDate"  />
+              <label for="endDate" class="form-label">Fecha de Entrega </label>
+            </p-floatLabel>
 
           </div>
         </div>
